@@ -233,8 +233,41 @@ hr {
 	background: url(images/img08.gif) no-repeat left center;
 }
 
-/* Latest Post */
+/* Publicatoins Post */
+#publicatoins-post {
+	/*width: 778px;*/
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+}
 
+
+#publicatoins-post .byline {
+	margin: 0 0 20px 0;
+	padding: 0;
+	text-align: center;
+	font-size: .9em;
+	font-weight: bold;
+	color: #3760BF;
+}
+
+#publicatoins-post .byline span {
+	padding: 0 0 0 30px;
+	background: url(images/img04.gif) no-repeat;
+}
+
+#publicatoins-post .byline a {
+	padding: 0 30px 0 0;
+	background: url(images/img05.gif) no-repeat right top;
+	text-decoration: none;
+}
+
+#publicatoins-post .byline a:hover {
+	text-decoration: underline;
+}
+
+
+/* Latest Post */
 #latest-post {
 	/*width: 778px;*/
 	width: 900px;
