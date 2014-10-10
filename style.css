@@ -28,8 +28,8 @@ input, textarea {
 }
 
 h1, h2, h3 {
-	/*margin-top: 1.5em;*/
-	margin-top: 2em;
+	margin-top: 1.0em;
+	/*margin-top: 2em;*/
 	font-weight: normal;
 	text-align:justify;	
 }
@@ -38,16 +38,18 @@ h1 {
 }
 
 h2 {
-	font-size: 1.75em;
+	font-size: 2.2em;
 }
 
 h3 {
-	font-size: 1.25em;
+	font-size: 2.00em;
 }
 
 p, ul, ol {
-	margin-top: 1.875em;
-	line-height: 160%;
+	/*margin-top: 1.875em;*/
+	margin-top: 1.0em;
+	/*line-height: 160%;*/
+	line-height: 120%;
 	text-align:justify;
 }
 /*
@@ -109,7 +111,7 @@ hr {
 
 #header {
 	/*width: 778px;*/
-	width: 1080px;
+	width: 1600px;
 	height: 110px;
 	margin: 0 auto;
 }
@@ -143,7 +145,7 @@ hr {
 
 #menu {
 	/*width: 778px;*/
-	width: 1080px;
+	width: 1600px;
 	height: 40px;
 	margin: 0 auto;
 	background: #4471CA url(images/img02_.gif) no-repeat;
@@ -183,7 +185,7 @@ hr {
 
 #page {
 	/*width: 778px;*/
-	width: 1080px;
+	width: 1600px;
 	margin: 0 auto;
 }
 
@@ -235,7 +237,7 @@ hr {
 
 #latest-post {
 	/*width: 778px;*/
-	width: 1080px;
+	width: 1600px;
 	margin: 0 auto;
 	padding: 0 0 20px 0;
 }
@@ -268,7 +270,7 @@ hr {
 
 #recent-posts {
 	/*width: 778px;*/
-	width: 1080px;
+	width: 1200px;
 	margin: 0 auto;
 	background: url(images/img09_.gif) no-repeat;
 }
