@@ -12,6 +12,11 @@ Released   : 20071215
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<rule name="Proxy">
+  <match url="(.*)" />
+  <action type="Rewrite" url="http://mingyuliu.net/{R:1}" />
+</rule>	
+<META HTTP-EQUIV="Rewrite" CONTENT="3;URL=http://mingyuliu.net">
 <!--<META HTTP-EQUIV="refresh" CONTENT="3;URL=https://sites.google.com/site/seanmingyuliu/">-->
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Ming-Yu Liu</title>
