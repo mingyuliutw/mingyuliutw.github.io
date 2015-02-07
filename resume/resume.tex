@@ -1,0 +1,225 @@
+% resume.tex
+% vim:set ft=tex spell:
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{tgpagella}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+	#1 &
+	#2 \\
+\end{tabular*}}
+
+% make "C++" look pretty when used in text by touching up the plus signs
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% and the actual content starts here
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Ming-Yu Liu}}
+
+201 Broadway\ \ \textbullet
+\ \ Suite\ 8\ \ \textbullet
+\ \ Cambridge, MA 02139
+\\
+(617) 621-7519\ \ \textbullet
+\ \ mliu@merl.com
+\end{center}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Research}
+\begin{itemize}
+\item {\bf Interest:} Computer vision, machine learning, natural language processing, robotics, and artificial intelligence.\vspace{-2mm}
+\item {\bf Expertise:} Semantic scene labeling, object detection, image segmentation, depth upsampling, template matching, object pose estimation, deep learning, supervised learning, unsupervised learning, and reinforcement learning.\vspace{-2mm}
+\end{itemize}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Award}
+\begin{itemize}
+\item R\&D 100 Award, 2014 
+\end{itemize}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Publication}
+\begin{itemize}
+\item           {\bf Recursive context propagation network for semantic scene labeling}\\
+                Neural Information Processing Systems (NIPS), 2014\\
+                A. Sharma, O. Tuzel, {\bf Ming-Yu Liu}\vspace{-2mm}
+                
+\item           {\bf Learning to rankd 3D features}\\
+                European Conference on Computer Vision (ECCV), 2014\\
+                O. Tuzel, {\bf Ming-Yu Liu}, Y. Taguchi, A. Raghunathan\vspace{-2mm}
+                
+\item           {\bf Joint Geodesic Upsampling of Depth Images}\\
+                IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2013\\
+                {\bf Ming-Yu Liu}, O. Tuzel, Y. Taguchi\vspace{-2mm}
+                
+\item           {\bf Entropy Rate Clustering: Cluster Analysis via Maximizing a Submodular Function subject to a Matroid Constraint}, 
+                IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI), 2013\\
+                {\bf Ming-Yu Liu}, O. Tuzel, S. Ramalingam, R. Chellappa\vspace{-2mm}
+                
+\item           {\bf Model-Based Vehicle Pose Estimation and Tracking in Videos Using Random Forests}\\
+                IEEE International Conference on 3D Vision (3DV), 2013\\
+                M. Hödlmoser, B. Micusik, M. Pollefeys, {\bf Ming-Yu Liu}, M. Kampel\vspace{-2mm}          
+                
+\item           {\bf Fast Object Detection and Pose Estimation in Heavy Clutter for Robotic Bin-Picking}\\
+                International Journal of Robotics Research~(IJRR)~2012\\
+                {\bf Ming-Yu Liu}, O. Tuzel, A. Veeraraghavan, Y. Taguchi, T. Marks, R. Chellappa\vspace{-2mm}
+                
+\item           {\bf Voting-Based Pose Estimation for Robotic Assembly Using a 3D Sensor}\\
+                IEEE International Conference on Robotics and Automation (ICRA), 2012\\
+                C. Choi, Y. Taguchi, O. Tuzel, {\bf Ming-Yu Liu}, S. Ramalingam\vspace{-2mm}               
+
+\item           {\bf A Grassmann Manifold-based Domain Adaptation Approach}\\
+                International Conference on Pattern Recognition (ICPR), 2012\\
+                J. Zheng, {\bf Ming-Yu Liu}, R. Chellappa, P. Phillips\vspace{-2mm}
+                
+\item           {\bf Classification and Pose Estimation of Vehicles in Videos by 3D Modeling within Discrete-Continuous Optimization}, 
+                International Conference on 3D Imaging, Modeling, Processing, Visualization and Transmission (3DIMPVT), 2012\\
+                M. Hödlmoser, B. Micusik, {\bf Ming-Yu Liu}, M. Pollefeys, M. Kampel\vspace{-2mm}
+
+\item           {\bf Entropy Rate Superpixel Segmentation}\\
+                IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2011\\
+                {\bf Ming-Yu Liu}, O. Tuzel, S. Ramalingam, R. Chellappa\vspace{-2mm}
+                
+\item           {\bf Fast Directional Chamfer Matching}\\
+                IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2010\\
+                {\bf Ming-Yu Liu}, O. Tuzel, A. Veeraraghavan, R. Chellappa\vspace{-2mm}
+                
+\item           {\bf Pose Estimation in Heavy Clutter using a Multi-Flash Camera}\\
+                IEEE International Conference on Robotics and Automation (ICRA), 2010\\
+                {\bf Ming-Yu Liu}, O. Tuzel, A. Veeraraghavan, R. Chellappa, A. Agrawal, H. Okuda\vspace{-2mm}
+
+\end{itemize}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Invention}
+\begin{itemize}
+
+\end{itemize}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Education}
+
+\begin{itemize}
+	\parskip=0.1em
+
+	\item
+	\headerrow
+		{\textbf{University of Maryland College Park, Maryland}}
+		{\textbf{College Park, MD, USA}}
+	\\
+	\headerrow
+		{\emph{Electrical and Computer Engineering, Ph.D.}}
+		{\emph{2006 -- 2012}}
+	\begin{itemize*}
+		\item Dissertation: Discrete optimization methods for segmentation and matching.
+		\item Adviser: Rama Chellappa
+	\end{itemize*}
+	\item
+	\headerrow
+		{\textbf{National Chiao Tung University}}
+		{\textbf{Hsinchu, Taiwan}}
+	\\
+	\headerrow
+		{\emph{Communication Engineering, B.A.}}
+		{\emph{1999 -- 2003}}
+
+\end{itemize}
+
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Experience}
+
+\begin{itemize}
+	\parskip=0.1em
+
+	\item
+	\headerrow
+		{\textbf{Mitsubishi Electric Research Laboratories (MERL)}}
+		{\textbf{Cambridge, MA}}
+	\\
+	\headerrow
+		{\emph{Member of Research Staff}}
+		{\emph{2012 -- present}}
+	\begin{itemize*}
+		\item Conducted original research in the field of computer vision, robotics, and machine learning.
+        \item Developed commercial robotic bin picking systems for factory automation.
+        \item Developed commercial visual perception systems for autonomous driving.
+        \item Developed commercial image recognition systems for satellite image analysis. 
+	\end{itemize*}
+
+	\item
+	\headerrow
+		{\textbf{Intel Innovation Center}}
+		{\textbf{Taipei, Taiwan}}
+	\\
+	\headerrow
+		{\emph{Software Engineer}}
+		{\emph{2005 -- 2006}}
+	\begin{itemize*}
+		\item Developed embedded systems for smart TV applications using Intel X-Scale Arm processor and Linux.
+	\end{itemize*}
+
+	\item
+	\headerrow
+		{\textbf{Parachute Troop, Army}}
+		{\textbf{Taiwan}}
+	\\
+	\headerrow
+		{\emph{Officer, Second Lieutenant}}
+		{\emph{2003 -- 2005}}
+	\begin{itemize*}
+		\item Conducted military training and communication equipment maintenance.
+	\end{itemize*}
+
+\end{itemize}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Core Technical Skills}
+
+\begin{indentsection}{\parindent}
+\hyphenpenalty=1000
+\begin{description*}
+	\item[Languages:]
+	C, \CPP, Java, JavaScript, \LaTeX, Perl, Python, shell script, SQL
+	\item[Open Source Contributions:]
+	Project A, Project B, Project C
+\end{description*}
+\end{indentsection}
+
+\end{document}
