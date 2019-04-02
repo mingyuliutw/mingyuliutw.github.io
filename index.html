@@ -1,23 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-
-Name       : News Beat
-Description: A fixed-width design suitable for small sites and blogs.
-Version    : 1.0
-Released   : 20071215
-
--->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<!-- <rule name="Proxy">
-  <match url="(.*)" />
-  <action type="Rewrite" url="http://mingyuliu.net/{R:1}" />
-</rule>	
-<META HTTP-EQUIV="Rewrite" CONTENT="3;URL=http://mingyuliu.net"> -->
-<!--<META HTTP-EQUIV="refresh" CONTENT="3;URL=https://sites.google.com/site/seanmingyuliu/">-->
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title><b>Ming-Yu Liu 劉洺堉</b></title>
 <meta name="keywords" content="" />
@@ -33,10 +16,6 @@ Released   : 20071215
 	<ul>
         <li class=""><a href="index.html" accesskey="1" title="">Home</a></li>
         <li><a href="publication.html" accesskey="2" title="">Publication</a></li>        
-        <li><a href="index.html#awards" accesskey="3" title="">Award</a></li>
-        <li><a href="index.html#service" accesskey="3" title="">Acadmic</a></li>
-		<li><a href="index.html#tutorial" accesskey="4" title="">Tutorial</a></li> 
-		<li><a href="index.html#workshop" accesskey="4" title="">Workshop</a></li> 		
         <li><a href="https://mingyuliu.blog" accesskey="6" title="">Blog</a></li>
 	</ul>
 </div>
@@ -46,7 +25,6 @@ Released   : 20071215
 		<p><h2>Ming-Yu Liu is a principal research scientist at NVIDIA Research. Before joining NVIDIA in 2016, he was a principal research scientist at Mitsubishi Electric Research Labs (MERL). He received his Ph.D. from the Department of Electrical and Computer Engineering at the University of Maryland College Park in 2012. His object pose estimation system was awarded one of hundred most innovative technology products by the R&D magazine in 2014. His street scene understanding paper was selected in the best paper finalist in the 2015 Robotics Science and System (RSS) conference. In CVPR 2018, he won the 1st place in both the Domain Adaptation for Semantic Segmentation Competition in the WAD challenge and the Optical Flow Competition in the Robust Vision Challenge. His research focus is on generative models for image generation and understanding. His goal is to enable machines superhuman-like imagination capabilities. </p>
 		<p><h2>Check out my new code release in <a href="https://github.com/mingyuliutw" accesskey="6" title="">GitHub</a>. Follow me on Twitter  <a href="https://twitter.com/liu_mingyu" accesskey="6" title="">Twitter</a>
 		</h2></p>
-<!-- 		<p><h1><b>Internship</b></h1><h2>If you are interested in doing an internship in my team, please drop an email to me.</h2></p> -->
 	</div>
 	<p class="meta"></p>
 </div>
@@ -55,113 +33,93 @@ Released   : 20071215
 <div id="latest-post" class="post">
 	<h1>Research focus</h1>
 
-	<h2><a href="https://github.com/NVlabs/SPADE">SPADE</a> Semantic Image Synthesis with Spatially-Adaptive Normalization (CVPR 2019)</h2>
-	<div class="entry"><img src="images/spade.gif" alt="" width="480" class="left" />
-	</h2></p>
-	</div>
-
-	<p class="meta"></p>
-	<h2><a href="https://github.com/NVIDIA/vid2vid">vid2vid</a> Video-to-Video Synthesis (NeurIPS 2018, arxiv 2018)</h2>
-	<div class="entry"><img src="images/vid2vid.gif" alt="" width="480" class="left" />
-	</h2></p>
-	</div>
-
-	<p class="meta"></p>
-	<h2><a href="https://github.com/NVlabs/MUNIT">MUNIT</a> Multimodal unsupervised image-to-image translation (ECCV 2018)</h2>
-	<div class="entry"><img src="images/multimodal_dog2cat.gif" alt="" width="480" class="left" />
-	</h2></p>
-	</div>
-
-	<p class="meta"></p>
-	<h2><a href="https://github.com/nvidia/fastphotostyle">FastPhotoStyle</a> Transfer style of a real photo to another real photo (ECCV 2018)</h2>
-	<div class="entry"><img src="images/fast_photo_style.png" alt="" width="480" class="left" />		
-	</h2></p>
-	</div>
-	
-	<p class="meta"></p>
-	<br>
-	<h2><a href="https://github.com/NVIDIA/pix2pixHD">pix2pixHD</a> High-res image synthesis and semantic manipulation (CVPR 2018)</h2>
-	<div class="entry"><img src="images/pix2pixHD.gif" alt="" width="480" class="left" />
-	</h2></p>	
-	</div>
-
-	<p class="meta"></p>
-	<br>
-	<h2><a href="https://github.com/mingyuliutw/UNIT">CoupledGANs, UNIT</a> Unsupervised image-to-image translation (NeurIPS 2016, NeurIPS 2017)<br>
-		Left: input; <b>right: machine-generated</b></h2>
-	<div class="entry"><img src="images/UNIT.gif" alt="" width="480" class="left" />
-	</h2></p>
-	</div>
-
-	<p class="meta"></p>
-	<br>
-	<h2><a href="https://github.com/sergeytulyakov/mocogan">MoCoGAN</a> for video generation (CVPR 2018)</h2>
-	<div class="entry"><img src="images/mocogan.gif" alt="" width="480" class="left" />		
-		</h2></p>
-	</div>
-	<p class="meta"></p>
+	<table style="width:100%">
+	<!-- SPADE -->
+	<tr>
+	    <th>
+	    	<div class="entry"><img src="gifs/spade.gif" alt="" width="480" class="left" />
+	    </th>
+	    <th style="text-align:left;vertical-align:top">
+	    	<h2><a href="https://github.com/NVlabs/SPADE">SPADE</a>:  
+			Semantic Image Synthesis with Spatially-Adaptive Normalization (CVPR 2019) </h2>
+			</h2>
+		</th> 
+    </tr>
+    <!-- VID2VID -->
+	<tr>
+	    <th>
+	    	<div class="entry"><img src="gifs/vid2vid.gif" alt="" width="480" class="left" />
+	    </th>
+	    <th style="text-align:left;vertical-align:top">
+	    	<h2><h2><a href="https://github.com/NVIDIA/vid2vid">vid2vid</a>: Video-to-Video Synthesis (NeurIPS 2018)</h2>
+			</h2>
+		</th> 
+    </tr>	
+    <!-- MUNIT -->
+	<tr>
+	    <th>
+	    	<div class="entry"><img src="gifs/munit.gif" alt="" width="480" class="left" />
+	    </th>
+	    <th style="text-align:left;vertical-align:top">
+			<h2><a href="https://github.com/NVlabs/MUNIT">MUNIT</a>: Multimodal unsupervised image-to-image translation (ECCV 2018)</h2>
+			</h2>
+		</th> 
+    </tr>
+    <!-- FastPhotoStyle -->
+	<tr>
+	    <th>
+	    	<div class="entry"><img src="gifs/fast_photo_style.png" alt="" width="480" class="left" />
+	    </th>
+	    <th style="text-align:left;vertical-align:top">
+			<h2><a href="https://github.com/nvidia/fastphotostyle">FastPhotoStyle</a><br>
+			A Closed-form Solution to Photorealistic Image Stylization (ECCV 2018)</h2>
+			</h2>
+		</th> 
+    </tr>
+    <!-- pix2pixHD -->
+	<tr>
+	    <th>
+	    	<div class="entry"><img src="gifs/pix2pixHD.gif" alt="" width="480" class="left" />
+	    </th>
+	    <th style="text-align:left;vertical-align:top">
+			<h2><a href="https://github.com/NVIDIA/pix2pixHD">pix2pixHD</a><br>
+			High-res image synthesis and semantic manipulation (CVPR 2018)</h2>
+			</h2>
+		</th> 
+    </tr>
+    <!-- MoCoGAN -->
+	<tr>
+	    <th>
+	    	<div class="entry"><img src="gifs/mocogan.gif" alt="" width="480" class="left" />
+	    </th>
+	    <th style="text-align:left;vertical-align:top">
+		<h2><a href="https://github.com/sergeytulyakov/mocogan">MoCoGAN</a><br>
+		Decomposing Motion and Content for Video Generation (CVPR 2018)</h2>
+		</th> 
+    </tr>        
+    <!-- UNIT -->
+	<tr>
+	    <th>
+	    	<div class="entry"><img src="gifs/unit.gif" alt="" width="480" class="left" />
+	    </th>
+	    <th style="text-align:left;vertical-align:top">
+			<h2><a href="https://github.com/mingyuliutw/UNIT">UNIT</a><br>
+			Unsupervised image-to-image translation Network (NeurIPS 2017)</h2>
+		</th> 
+    </tr>
+    <!-- Coupled GAN -->
+	<tr>
+	    <th>
+	    	<div class="entry"><img src="gifs/cogan.png" alt="" width="480" class="left" />
+	    </th>
+	    <th style="text-align:left;vertical-align:top">
+			<h2><a href="https://github.com/mingyuliutw/UNIT">Coupled GAN</a><br>
+			Coupled Generative Adversarial Networks (NeurIPS 2016)<br>
+			</h2>
+		</th> 
+    </tr>          
+	</table>
 </div>
-
-
-<!-- <hr />
-<div id= "research">
-<div id="latest-post" class="post"><h1><b>Former research focus</b></h1>
-	<div class="entry">
-	<ul>
-		<li><h2><a href="https://github.com/mingyuliutw/Research/blob/master/SemanticSegmentation.md">Semantic Segmentation</a></h2></li>
-		<li><h2><a href="https://github.com/mingyuliutw/Research/blob/master/RoboticBinPicking.md">Robotic Bin-Picking</a></h2></li>
-	</ul>
-	</ul>	
-	</div>
-</div>	 -->
-
-<!-- <hr />
-<div id="education">
-<div id="latest-post" class="post"><h1><b>Education</b></h1>
-	<div class="entry">
-	<ul>
-		<li>
-		  <h2><p>PhD, Electrical&Computer Engineering, University of Maryland College Park, Advisor: <a href="http://www.umiacs.umd.edu/~rama">Rama Chellappa</a>, 2006-2012</h2>
-		</li>
-		<li>
-		  <h2><p>BA, National Chiao Tung University, Taiwan, 1999-2003</h2>		  
-		</li>
-		</ul>
-	</ul>	
-	</div>
-</div>
-</div> -->
-<!---
-<hr />
-<div id="latest-post" class="post"><h1><b>Experiences</b></h1>
-	<div class="entry">
-	<ul>
-		<li>
-		  <h2><p>Senior Research Scientist (Level 4), <a href="https://research.nvidia.com">Nvidia Research</a>, Santa Clara, CA, USA, 2017.09-now</h2>
-		</li>	
-		<li>
-		  <h2><p>Senior Research Scientist (Level 4), <a href="https://research.nvidia.com">Nvidia Research</a>, Santa Clara, CA, USA, 2016.08-2017.09</h2>
-		</li>		
-		<li>
-		  <h2><p>Principal Research Scientist, <a href="http://www.merl.com">Mitsubishi Electric Research Labs (MERL)</a>, Cambridge, MA, USA, 2015.04-2016.08</h2>
-		</li>	
-		<li>
-		  <h2><p>Member Research Scientist, <a href="http://www.merl.com">Mitsubishi Electric Research Labs (MERL)</a>, Cambridge, MA, USA, 2013.09-2015.03</h2>
-		</li>
-		<li>
-		  <h2><p>Visiting Research Scientist, <a href="http://www.merl.com">Mitsubishi Electric Research Labs (MERL)</a>, Cambridge, MA, USA, 2012.02-2013.08</h2>
-		</li>		
-		<li>
-		  <h2><p>Software Engineering Intern, <a href="http://www.intel.com">Intel</a>, Taiwan branch, 2005-2006</h2>
-		</li>
-		<li>
-		  <h2><p>Army officer, second lieutenant, Taiwan, 2003-2005</h2>
-		</li>				
-		</ul>
-	</ul>	
-	</div>
-</div>	
--->
 
 <hr />
 <div id= "awards">
@@ -199,7 +157,7 @@ Released   : 20071215
 
 <hr />
 <div id="service">
-<div id="latest-post" class="post"><h1><b>Academic Duty</b></h1>
+<div id="latest-post" class="post"><h1><b>Peer Review</b></h1>
 	<div class="entry">
 	<ul>
 		<li> 
@@ -221,7 +179,7 @@ Released   : 20071215
 
 <hr />
 <div id="tutorial">
-<div id="latest-post" class="post"><h1><b>Tutorial</b></h1>
+<div id="latest-post" class="post"><h1><b>Tutorial Co-organized</b></h1>
 	<div class="entry">
 	<ul>
 		<li>
@@ -243,7 +201,7 @@ Released   : 20071215
 
 <hr />
 <div id="workshop">
-<div id="latest-post" class="post"><h1><b>Workshop</b></h1>
+<div id="latest-post" class="post"><h1><b>Workshop Co-organized</b></h1>
 	<div class="entry">
 	<ul>
 		<li>
