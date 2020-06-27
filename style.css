@@ -29,48 +29,55 @@ input, textarea {
 
 h1, h2, h3 {
 	margin-top: 1.0em;	
-	/*margin-top: 2em;*/
 	font-weight: normal;
 	text-align:justify;	
 }
-h1 {
-	font-size: 2.0em;
+
+
+
+@media screen and (min-width: 1201px)
+{
+	h1 {
+		font-size: 2.0em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	h3 {
+		font-size: 1.0em;
+	}
+	p, ul, ol {
+		/*margin-top: 1.875em;*/
+		margin-top: 1.0em;
+		/*line-height: 160%;*/
+		line-height: 120%;
+		text-align:justify;
+	}	
+}
+@media screen and (max-width: 1200px)
+{
+	h1 {
+		font-size: 6vw;
+	}
+
+	h2 {
+		font-size: 4vw;
+	}
+
+	h3 {
+		font-size: 2vw;
+	}
+	p, ul, ol {
+		/*margin-top: 1.875em;*/
+		margin-top: 2vw;
+		/*line-height: 160%;*/
+		line-height: 120%;
+		text-align:justify;
+	}
 }
 
-h2 {
-	font-size: 1.2em;
-}
-
-h3 {
-	font-size: 1.0em;
-}
-
-p, ul, ol {
-	/*margin-top: 1.875em;*/
-	margin-top: 1.0em;
-	/*line-height: 160%;*/
-	line-height: 120%;
-	text-align:justify;
-}
-/*
-h1 {
-	font-size: 2em;
-}
-
-h2 {
-	font-size: 1.4em;
-}
-
-h3 {
-	font-size: 1em;
-}
-
-p, ul, ol {
-	margin-top: 1.5em;
-	line-height: 160%;
-	text-align:justify;
-}
-*/
 ul, ol {
 	margin-left: 3em;
 }
