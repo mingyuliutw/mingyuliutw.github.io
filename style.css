@@ -51,11 +51,51 @@ h1, h2, h3 {
 	p, ul, ol {
 		/*margin-top: 1.875em;*/
 		margin-top: 1.0em;
+		font-size: 1.0em;
 		/*line-height: 160%;*/
-		line-height: 120%;
+		/*line-height: 120%;*/
 		text-align:justify;
 	}	
+
+	#menu {
+		/*width: 778px;*/
+		width: 900px;
+		height: 40px;
+		margin: 0 auto;
+		background: #4471CA url(images/img02_.gif) no-repeat;
+	}
+
+	#menu ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		line-height: normal;
+	}
+
+	#menu li {
+		display: inline;
+		font-size: 1.25em;
+	}
+
+	#menu a {
+		float: left;
+		height: 28px;
+		padding: 12px 20px 0 20px;
+		background: no-repeat;
+		text-decoration: none;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+
+	#menu a:hover {
+		text-decoration: underline;
+	}
+
+	#menu .first a {
+		background: none;
+	}	
 }
+
 @media screen and (max-width: 1200px)
 {
 	h1 {
@@ -67,15 +107,55 @@ h1, h2, h3 {
 	}
 
 	h3 {
-		font-size: 2vw;
+		font-size: 3vw;
 	}
 	p, ul, ol {
 		/*margin-top: 1.875em;*/
-		margin-top: 2vw;
+		margin-top: 3vw;
+		font-size: 3vw;
 		/*line-height: 160%;*/
-		line-height: 120%;
+		/*line-height: 120%;*/
 		text-align:justify;
 	}
+
+
+	#menu {
+		/*width: 778px;*/
+		width: 900px;
+		height: 60px;
+		margin: 0 auto;
+		background: #4471CA url(images/img02_.gif) no-repeat;
+	}
+
+	#menu ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		line-height: normal;
+	}
+
+	#menu li {
+		display: inline;
+		font-size: 1.25em;
+	}
+
+	#menu a {
+		float: left;
+		height: 28px;
+		padding: 12px 20px 0 20px;
+		background: no-repeat;
+		text-decoration: none;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+
+	#menu a:hover {
+		text-decoration: underline;
+	}
+
+	#menu .first a {
+		background: none;
+	}	
 }
 
 ul, ol {
@@ -150,43 +230,7 @@ hr {
 
 /* Menu */
 
-#menu {
-	/*width: 778px;*/
-	width: 900px;
-	height: 40px;
-	margin: 0 auto;
-	background: #4471CA url(images/img02_.gif) no-repeat;
-}
 
-#menu ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	line-height: normal;
-}
-
-#menu li {
-	display: inline;
-	font-size: 1.25em;
-}
-
-#menu a {
-	float: left;
-	height: 28px;
-	padding: 12px 20px 0 20px;
-	background: no-repeat;
-	text-decoration: none;
-	font-weight: bold;
-	color: #FFFFFF;
-}
-
-#menu a:hover {
-	text-decoration: underline;
-}
-
-#menu .first a {
-	background: none;
-}
 
 /* Page */
 
