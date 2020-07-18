@@ -442,7 +442,8 @@ h3.category_title .category_title_icon { border-radius: 3px; position: absolute;
 .portfolio_wrapper .portfolio_items { margin: 0 -10px 0 -2px; overflow: hidden;}
 #mainpage_accordion_area .section_body { display: none; position:relative; overflow:hidden;}
 .profile_section .section_body { display: block;}
-#mainpage_accordion_area .portfolio_items article.portfolio_post { float: left; width:400px; padding-top: 0;  height:auto; overflow:hidden; margin: 0 0 2px 2px;
+/*Change gif image size here*/
+#mainpage_accordion_area .portfolio_items article.portfolio_post { float: left; width:512px; padding-top: 0;  height:auto; overflow:hidden; margin: 0 0 2px 2px;
  background: none;
  -webkit-transition: transform,​ opacity ease .5s;
  -moz-transition: transform,​ opacity ease .5s;
