@@ -69,7 +69,7 @@ img {
 
 /* Header */
 .site-header {
-    padding: 2rem 0 1.5rem;
+    padding: 0 0 1.5rem;
     border-bottom: 1px solid var(--color-border);
     background: var(--color-surface);
 }
@@ -77,13 +77,14 @@ img {
 .header-inner {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 1rem;
 }
 
 .header-name {
     min-width: 0;
+    padding-top: 2rem;
 }
 
 .site-name {
@@ -118,6 +119,7 @@ img {
 
 .header-social {
     margin-top: 0;
+    padding-top: 0;
     flex-shrink: 0;
 }
 
@@ -182,8 +184,8 @@ img {
 }
 
 .social-links a.social-icon svg {
-    width: 24px;
-    height: 24px;
+    width: 64px;
+    height: 64px;
     display: block;
 }
 
